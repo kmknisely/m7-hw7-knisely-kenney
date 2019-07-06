@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+header{
+  text-align: center;
+  background-image: url("shopfront.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 15% 0;
+  max-height: 300px;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 3rem;
+  background-color: rgb(248,197,208,.8);
+  padding:  1%;
+}
+
+
+section{
+  width: 100%;
+}
+
+aside{
+  width: 100%;
+}
+
+img{
+  width: 100%;
+}
