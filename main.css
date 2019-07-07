@@ -49,15 +49,12 @@ section{
   text-align: center;
 }
 
-aside{
-  width: 100%;
-}
-
 img{
   width: 100%;
 }
 
 aside{
+  width: 100%;
   text-align: center;
 }
 
@@ -79,4 +76,17 @@ aside{
   font-family: 'Lobster', cursive;
   color: white;
   font-size: 3.5rem;
+}
+
+footer {
+  background-color: #ABE3E5;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10%;
+}
+
+footer p{
+  color: white;
+  font-size: 1rem;
 }
