@@ -11,7 +11,7 @@ header{
   background-position: center;
   background-size: cover;
   padding: 15% 0;
-  max-height: 300px;
+  max-height: 100px;
 }
 
 h1{
@@ -51,6 +51,7 @@ section{
 
 img{
   width: 100%;
+  display: block;
 }
 
 aside{
@@ -76,6 +77,7 @@ aside{
   font-family: 'Lobster', cursive;
   color: white;
   font-size: 3.5rem;
+  opacity: 0;
 }
 
 footer {
@@ -89,4 +91,48 @@ footer {
 footer p{
   color: white;
   font-size: 1rem;
+}
+
+@media(min-width: 760px) {
+
+  main{
+    display: flex;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    background-color: white;
+    color: #ABE3E5;
+    font-size: 2.5rem;
+  }
+
+  p{
+    font-size: 1rem;
+    margin: 2% 5%;
+  }
+
+  section{
+    width: 66.666%;
+  }
+
+  aside {
+    width: 33.3333%;
+  }
+  aside h2{
+    color: white;
+    padding: 10%;
+    background-color:#ABE3E5;
+  }
+
+  footer{
+    padding: 2%;
+  }
+
+  footer p{
+    margin: 1%;
+  }
+
 }
